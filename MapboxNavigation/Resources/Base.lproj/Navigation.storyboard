@@ -259,12 +259,6 @@
                                                         </attributedString>
                                                     </label>
                                                 </subviews>
-                                                <constraints>
-                                                    <constraint firstItem="u1L-N9-mMS" firstAttribute="top" secondItem="c3B-6D-Ukh" secondAttribute="top" id="Az5-l0-uTr"/>
-                                                    <constraint firstItem="u1L-N9-mMS" firstAttribute="leading" secondItem="c3B-6D-Ukh" secondAttribute="leading" id="YYj-Tj-cgd"/>
-                                                    <constraint firstItem="BR8-8N-Rhk" firstAttribute="top" secondItem="u1L-N9-mMS" secondAttribute="bottom" id="guF-uE-UOT"/>
-                                                    <constraint firstAttribute="trailing" secondItem="u1L-N9-mMS" secondAttribute="trailing" id="vXp-kb-y24"/>
-                                                </constraints>
                                             </stackView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gkj-hG-NxS">
                                                 <rect key="frame" x="237" y="19" width="32" height="32"/>
