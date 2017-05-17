@@ -32,7 +32,6 @@ class RouteManeuverViewController: UIViewController {
             } else if let destinations = upComingStep.destinations?.joined(separator: "\n") {
                 streetLabel.text = destinations.abbreviated(toFit: availableStreetLabelBounds, font: streetLabel.font!)
             } else {
-                streetLabel.text = upComingStep.instructions.abbreviated(toFit: availableStreetLabelBounds, font: streetLabel.font)
                 streetLabel.text = routeStepFormatter.string(for: upComingStep)?.abbreviated(toFit: availableStreetLabelBounds, font: streetLabel.font)
             }
             
